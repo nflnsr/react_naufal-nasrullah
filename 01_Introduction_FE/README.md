@@ -1,5 +1,8 @@
 # Summary
 
-- cara kerja internet
-- HTML, CSS, dan JavaScript sebagai pondasi Frontend
-- Version Control System untuk memudahkan kolaborasi dan bekerja secara team
+- memahami apa itu Frontend Developer
+- memahami tugas Frontend Developer
+- mempelajari cara kerja internet
+- mengenal HTML, CSS, dan JavaScript sebagai pondasi Frontend
+- pengenalan Version Control System
+- materi tambahan mengenai web security dan package manager
