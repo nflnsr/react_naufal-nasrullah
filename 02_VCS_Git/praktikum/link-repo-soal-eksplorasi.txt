@@ -1,0 +1,3 @@
+berikut adalah link dari repository untuk soal eksplorasi : https://github.com/nflnsr/belajar-git
+
+untuk soal prioritas 1 dan 2 dapat dilihat dari bentuk repository ini.
