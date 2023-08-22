@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        margin-top: 8px;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create Account</h1>
+    <h2>Detail Form</h2>
+    <div class="container">
+      <label for="">First name :</label>
+      <input type="text" />
+    </div>
+    <div class="container">
+      <label for="">Last name :</label>
+      <input type="text" />
+    </div>
+    <div class="container">
+      <label for="">Username :</label>
+      <input type="text" />
+    </div>
+    <div class="container">
+      <label for="">Email :</label>
+      <input type="text" />
+    </div>
+    <div>
+      <label for="">Gender :</label>
+      <div>
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+      </div>
+      <div>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+      </div>
+      <div>
+        <input type="radio" name="gender" id="other" />
+        <label for="other">Other</label>
+      </div>
+    </div>
+    <div class="container">
+      <label for="">Adress</label>
+      <input type="text" />
+    </div>
+    <div class="container">
+      <label for="">Adress 2</label>
+      <input type="text" />
+    </div>
+    <div>
+      <label for="">Nasionality :</label>
+      <div class="container">
+        <label style="font-size: 13px;" for="">Nasionality</label>
+        <select name="" id="" style="width: 100px;">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <label for="">Language Spoken :</label>
+      <div>
+        <input type="checkbox" id="indo" name="language" />
+        <label for="indo">Bahasa Indonesia</label>
+      </div>
+      <div>
+        <input type="checkbox" id="english" name="language" />
+        <label for="english">English</label>
+      </div>
+      <div>
+        <input type="checkbox" id="other" name="language" />
+        <label for="other">Other</label>
+      </div>
+    </div>
+    <button type="submit">Create Account</button>
+  </body>
+</html>
