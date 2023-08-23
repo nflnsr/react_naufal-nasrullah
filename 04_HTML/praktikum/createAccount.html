@@ -17,23 +17,23 @@
     <h1>Create Account</h1>
     <h2>Detail Form</h2>
     <div class="container">
-      <label for="">First name :</label>
-      <input type="text" />
+      <label for="firstname">First name :</label>
+      <input type="text" name="firstname" id="firstname" />
     </div>
     <div class="container">
-      <label for="">Last name :</label>
-      <input type="text" />
+      <label for="lastname">Last name :</label>
+      <input type="text" name="lastname" id="lastname" />
     </div>
     <div class="container">
-      <label for="">Username :</label>
-      <input type="text" />
+      <label for="username">Username :</label>
+      <input type="text" name="username" id="username" />
     </div>
     <div class="container">
-      <label for="">Email :</label>
-      <input type="text" />
+      <label for="email">Email :</label>
+      <input type="text" name="email" id="email" />
     </div>
     <div>
-      <label for="">Gender :</label>
+      <label>Gender :</label>
       <div>
         <input type="radio" name="gender" id="male" />
         <label for="male">Male</label>
@@ -48,26 +48,28 @@
       </div>
     </div>
     <div class="container">
-      <label for="">Adress</label>
-      <input type="text" />
+      <label for="adress">Adress</label>
+      <input type="text" name="adress" id="adress" />
     </div>
     <div class="container">
-      <label for="">Adress 2</label>
-      <input type="text" />
+      <label for="addres2">Adress 2</label>
+      <input type="text" name="addres2" id="addres2" />
     </div>
     <div>
       <label for="">Nasionality :</label>
       <div class="container">
-        <label style="font-size: 13px;" for="">Nasionality</label>
-        <select name="" id="" style="width: 100px;">
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+        <label style="font-size: 13px" for="">Nasionality</label>
+        <select name="nasionality" id="nasionality" style="width: 100px">
+          <!--option 1 kosong agar hasilnya sesuai design mas-->
+          <option></option>
+          <option value="car1">Car 1</option>
+          <option value="car2">Car 2</option>
+          <option value="car3">Car 3</option>
         </select>
       </div>
     </div>
     <div>
-      <label for="">Language Spoken :</label>
+      <label>Language Spoken :</label>
       <div>
         <input type="checkbox" id="indo" name="language" />
         <label for="indo">Bahasa Indonesia</label>
