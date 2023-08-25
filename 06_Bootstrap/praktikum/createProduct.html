@@ -130,21 +130,21 @@
               style="width: 200px; height: 40px"
             >
               <option selected disabled value="">Choose...</option>
-              <option></option>
-              <option></option>
-              <option></option>
+              <option value="opsi-1">opsi 1</option>
+              <option value="opsi-2">opsi 2</option>
+              <option value="opsi-3">opsi 3</option>
             </select>
             <div class="valid-feedback">Looks good!</div>
             <div class="invalid-feedback">Looks not good!</div>
           </div>
 
           <div class="d-flex flex-column mt-4">
-            <label for="file" class="form-label">Image of Product</label>
+            <label for="product-image" class="form-label">Image of Product</label>
             <div class="">
               <input
                 type="file"
-                id="file"
-                name="file"
+                id="product-image"
+                name="product-image"
                 required
                 class="border border-2 border-primary rounded-3 text-primary form-control"
                 style="height: 40px; width: 250px"
@@ -160,21 +160,23 @@
               <input
                 type="radio"
                 name="freshness"
-                id="brandNew"
+                id="brand-new"
                 required
                 class="form-check-input"
+                value="brand-new"
               />
-              <label for="brandNew">Brand New</label>
+              <label for="brand-new">Brand New</label>
             </div>
             <div>
               <input
                 type="radio"
                 name="freshness"
-                id="secondHank"
+                id="second-hank"
                 required
                 class="form-check-input"
+                value="second-hank"
               />
-              <label for="secondHank">Second Hank</label>
+              <label for="second-hank">Second Hank</label>
             </div>
             <div>
               <input
@@ -183,16 +185,17 @@
                 id="refurbished"
                 required
                 class="form-check-input"
+                value="refurbished"
               />
               <label for="refurbished">Refurbished</label>
             </div>
           </div>
 
           <div class="d-flex flex-column mt-2">
-            <label for="desc" class="form-label">Additional Description</label>
+            <label for="description" class="form-label">Additional Description</label>
             <textarea
-              name="desc"
-              id="desc"
+              name="description"
+              id="description"
               rows="5"
               required
               class="border-2 form-control"
@@ -203,11 +206,11 @@
           </div>
 
           <div class="d-flex flex-column mt-4">
-            <label for="price" class="form-label">Product Price</label>
+            <label for="product-price" class="form-label">Product Price</label>
             <input
               type="number"
-              name="price"
-              id="price"
+              name="product-price"
+              id="product-price"
               placeholder="$ 1"
               required
               class="px-4 form-control"

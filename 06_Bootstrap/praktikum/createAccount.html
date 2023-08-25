@@ -108,7 +108,7 @@
             class="d-flex gap-2 justify-content-between flex-column flex-sm-row"
           >
             <div>
-              <label for="name" class="form-label">First Name</label>
+              <label for="first-name" class="form-label">First Name</label>
               <input
                 type="text"
                 name="first-name"
@@ -123,7 +123,7 @@
               <div class="invalid-feedback">Looks not good!</div>
             </div>
             <div>
-              <label for="name" class="form-label">Last Name</label>
+              <label for="last-name" class="form-label">Last Name</label>
               <input
                 type="text"
                 name="last-name"
@@ -212,7 +212,7 @@
             <label for="address" class="form-label">Address</label>
             <div class="input-group">
               <input
-                type="address"
+                type="text"
                 class="form-control"
                 placeholder="1234 Main St"
                 name="address"
@@ -230,7 +230,7 @@
             >
             <div class="input-group">
               <input
-                type="address2"
+                type="text"
                 class="form-control"
                 placeholder="1234 Main St"
                 name="address2"
@@ -252,9 +252,9 @@
               style="width: 250px; height: 40px"
             >
               <option selected disabled value="">Choose...</option>
-              <option></option>
-              <option></option>
-              <option></option>
+              <option value="opsi-1">opsi 1</option>
+              <option value="opsi-2">opsi 2</option>
+              <option value="opsi-3">opsi 3</option>
             </select>
             <div class="valid-feedback">Looks good!</div>
             <div class="invalid-feedback">Looks not good!</div>
@@ -265,16 +265,16 @@
           <div class="form-check">
             <label>Language Spoken</label>
             <div>
-              <input type="checkbox" class="form-check-input" id="bahasa" />
-              <label class="" for="bahasa">Bahasa</label>
+              <input type="checkbox" class="form-check-input" id="bahasa" name="bahasa"/>
+              <label for="bahasa">Bahasa</label>
             </div>
             <div>
-              <input type="checkbox" class="form-check-input" id="bahasa" />
-              <label class="" for="bahasa">Bahasa</label>
+              <input type="checkbox" class="form-check-input" id="english" name="english"/>
+              <label for="bahasa">English</label>
             </div>
             <div>
-              <input type="checkbox" class="form-check-input" id="bahasa" />
-              <label class="" for="bahasa">Bahasa</label>
+              <input type="checkbox" class="form-check-input" id="others" name="others"/>
+              <label for="bahasa">Others</label>
             </div>
           </div>
 
