@@ -3,7 +3,7 @@ import { columns } from "./components/table-column";
 import { ProductTable } from "./components/product-table";
 import { fetchDataProduct, selectProducts } from "@/stores/product-data";
 import { useState, useEffect } from "react";
-import { Main } from "@/layout/main";
+import { Main } from "@/components/main";
 import { ProductForm } from "./components/product-form";
 import { ColumnDef } from "@tanstack/react-table";
 import { AddButton } from "./components/ui/add-btn";
@@ -45,7 +45,7 @@ export default function Products() {
           <AddButton showForm={showForm} setShowForm={setShowForm} />
         </div>
       </div>
-      {showForm && <ProductForm />}
+      <div className={ showForm ? "block" : "hidden" }>{<ProductForm />}</div>
       <ProductTable columns={columns as ColumnDef<unknown, unknown>[]} data={data} />
     </Main>
   );

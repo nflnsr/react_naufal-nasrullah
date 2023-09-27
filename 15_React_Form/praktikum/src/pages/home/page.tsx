@@ -1,4 +1,4 @@
-import { Footer } from "@/layout/footer";
+import { Footer } from "@/components/footer";
 import assets_1 from "@/assets/images/hero-img.png";
 
 const Home = () => {

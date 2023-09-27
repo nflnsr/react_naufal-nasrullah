@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { addProduct, selectProducts } from "@/stores/product-data";
 import photo from "/assets/product-sample.jpg";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -38,7 +38,7 @@ import {
 
 type FormValues = z.infer<typeof formSchema>;
 
-export function ProductForm() {
+export const ProductForm = React.memo(function() {
   const dispatch = useDispatch();
   const dataProduct: Products[] = useSelector(selectProducts);
   const id = dataProduct.length + 1;
@@ -68,6 +68,9 @@ export function ProductForm() {
     dispatch(addProduct(data));
   }
 
+  useEffect(() => {
+    console.log("tes")
+  })
   useEffect(() => {
     form.formState.isSubmitted &&
       !form.formState.isSubmitSuccessful &&
@@ -249,4 +252,4 @@ export function ProductForm() {
       </form>
     </Form>
   );
-}
+});
