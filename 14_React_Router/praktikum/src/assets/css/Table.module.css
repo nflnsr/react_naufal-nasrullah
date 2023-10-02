@@ -1,0 +1,17 @@
+table tr td:last-child {
+  /* Atur gaya CSS untuk kolom terakhir di setiap baris */
+  background-color: #64a2ff;
+}
+table tr td:nth-last-child(2) {
+  /* Atur gaya CSS untuk kolom terakhir di setiap baris */
+  background-color: #ffac64;
+}
+
+.bga {
+  background-color: rgb(200, 0, 0);
+  font-size: xx-large;
+}
+
+td {
+  text-align: center;
+}
